@@ -1,8 +1,8 @@
-🐍 Snake Game
+# 🐍 Snake Game
 
 A modern and feature-rich Snake Game built with **Python and Tkinter**.
 
-This project was developed as a desktop game for Windows, with custom graphics, background music, sound effects, high-score tracking, pause/resume functionality, and a Windows installer created using **Inno Setup**.
+This project was developed as a desktop game for Windows, featuring custom graphics, background music, sound effects, high-score tracking, pause/resume functionality, and a Windows installer created using **Inno Setup**.
 
 ---
 
@@ -38,7 +38,7 @@ This project was developed as a desktop game for Windows, with custom graphics, 
 
 Download the latest Windows installer from the GitHub Releases page:
 
-[![Download Snake Game](https://img.shields.io/badge/Download-Snake%20Game-brightgreen?style=for-the-badge&logo=windows)](https://github.com/YOUR-USERNAME/Snake-Game-Python/releases/latest)
+[![Download Snake Game](https://img.shields.io/badge/Download-Snake%20Game-brightgreen?style=for-the-badge&logo=windows)](https://github.com/HusnainRaza313/Snake-Game-Python/releases/latest)
 
 Download the `.exe` installer, run it, and follow the installation instructions.
 
@@ -101,24 +101,23 @@ If you want to run the game directly from the source code:
 
 Make sure Python is installed on your computer.
 
-2. Clone the repository
-git clone https://github.com/YOUR-USERNAME/Snake-Game-Python.git
-3. Open the project folder
+2. Clone the Repository
+git clone https://github.com/HusnainRaza313/Snake-Game-Python.git
+3. Open the Project Folder
 cd Snake-Game-Python
-4. Install dependencies
+4. Install Dependencies
 pip install -r requirements.txt
-5. Run the game
+5. Run the Game
 python snake_game.py
 📦 Build the Application
 
-The project also includes the PyInstaller specification file:
+The project includes the PyInstaller specification file:
 
 Snake Game.spec
 
-This can be used to build the Windows executable.
+This file can be used to build the Windows executable.
 
-Example:
-
+Build Command
 pyinstaller "Snake Game.spec"
 
 The generated application can then be packaged into a Windows installer using Inno Setup.
@@ -165,8 +164,7 @@ Muhammad Husnain Raza
 
 ADP Computer Science Student
 
-Interested in:
-
+Interests
 🐍 Python
 💻 C++
 📱 Flutter
@@ -183,6 +181,14 @@ Feedback and suggestions are welcome.
 This project is available for educational and personal use.
 
 
-#
-```text
-README.md
+### ⚠️ One important thing
+
+I've changed all the `YOUR-USERNAME` parts to your actual GitHub username:
+
+**`HusnainRaza313`**
+
+So your README now points to:
+
+:contentReference[oaicite:0]{index=0}
+
+Your **next step should be creating the GitHub Release** and uploading `SnakeGame_Setup.exe`. Once you do that, the **Download Snake Game** button in this README will work.
