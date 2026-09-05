@@ -14,7 +14,7 @@ ArchitecturesAllowed=x64compatible
 ArchitecturesInstallIn64BitMode=x64compatible
 DisableProgramGroupPage=yes
 OutputBaseFilename=Snake Game Setup
-SetupIconFile=C:\Users\DELL\OneDrive - Higher Education Commission\Desktop\snake game\snake game\valid_icon.ico
+SetupIconFile=valid_icon.ico
 SolidCompression=yes
 WizardStyle=modern dynamic
 
@@ -25,10 +25,10 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\DELL\OneDrive - Higher Education Commission\Desktop\snake game\snake game\dist\Snake Game\Snake Game.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\DELL\OneDrive - Higher Education Commission\Desktop\snake game\snake game\dist\Snake Game\background_music.wav"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\DELL\OneDrive - Higher Education Commission\Desktop\snake game\snake game\dist\Snake Game\_internal\*"; DestDir: "{app}\_internal"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Users\DELL\OneDrive - Higher Education Commission\Desktop\snake game\snake game\valid_icon.ico"; DestDir: "{app}"; Flags: ignoreversion
+Source: "dist\Snake Game\Snake Game.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "dist\Snake Game\background_music.wav"; DestDir: "{app}"; Flags: ignoreversion
+Source: "dist\Snake Game\_internal\*"; DestDir: "{app}\_internal"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "valid_icon.ico"; DestDir: "{app}"; Flags: ignoreversion
 
 [Icons]
 Name: "{autoprograms}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; IconFilename: "{app}\valid_icon.ico"
