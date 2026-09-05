@@ -181,14 +181,4 @@ Feedback and suggestions are welcome.
 This project is available for educational and personal use.
 
 
-### ⚠️ One important thing
 
-I've changed all the `YOUR-USERNAME` parts to your actual GitHub username:
-
-**`HusnainRaza313`**
-
-So your README now points to:
-
-:contentReference[oaicite:0]{index=0}
-
-Your **next step should be creating the GitHub Release** and uploading `SnakeGame_Setup.exe`. Once you do that, the **Download Snake Game** button in this README will work.
