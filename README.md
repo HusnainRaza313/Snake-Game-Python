@@ -93,92 +93,132 @@ Snake-Game-Python/
 ├── snake_body.png
 ├── snake_food.png
 └── snake_head.png
-▶️ Run From Source
+```
+
+---
+
+## ▶️ Run From Source
 
 If you want to run the game directly from the source code:
 
-1. Install Python
+### 1. Install Python
 
 Make sure Python is installed on your computer.
 
-2. Clone the Repository
+### 2. Clone the Repository
+
+```bash
 git clone https://github.com/HusnainRaza313/Snake-Game-Python.git
-3. Open the Project Folder
+```
+
+### 3. Open the Project Folder
+
+```bash
 cd Snake-Game-Python
-4. Install Dependencies
+```
+
+### 4. Install Dependencies
+
+```bash
 pip install -r requirements.txt
-5. Run the Game
+```
+
+### 5. Run the Game
+
+```bash
 python snake_game.py
-📦 Build the Application
+```
+
+---
+
+## 📦 Build the Application
 
 The project includes the PyInstaller specification file:
 
+```text
 Snake Game.spec
+```
 
 This file can be used to build the Windows executable.
 
-Build Command
+### Build Command
+
+```bash
 pyinstaller "Snake Game.spec"
+```
 
-The generated application can then be packaged into a Windows installer using Inno Setup.
+The generated application can then be packaged into a Windows installer using **Inno Setup**.
 
-💾 Game Data
+---
+
+## 💾 Game Data
 
 The game stores certain user data locally, such as:
 
-High score
-Game settings
-Music preference
-Sound-effect preference
+- High score
+- Game settings
+- Music preference
+- Sound-effect preference
 
 These settings are saved locally on the user's computer.
 
-🎯 Purpose of the Project
+---
+
+## 🎯 Purpose of the Project
 
 This project was created to practice and demonstrate skills in:
 
-Python programming
-GUI development
-Object-oriented/problem-solving concepts
-File handling
-Audio integration
-Image processing
-Game logic
-Application packaging
-Windows software distribution
-🚀 Future Improvements
+- Python programming
+- GUI development
+- Object-oriented/problem-solving concepts
+- File handling
+- Audio integration
+- Image processing
+- Game logic
+- Application packaging
+- Windows software distribution
+
+---
+
+## 🚀 Future Improvements
 
 Possible future improvements include:
 
-Multiple difficulty levels
-Additional game modes
-More food types
-Special power-ups
-Leaderboard system
-More visual effects
-Cross-platform support
-Online high-score system
-👨‍💻 Developer
+- Multiple difficulty levels
+- Additional game modes
+- More food types
+- Special power-ups
+- Leaderboard system
+- More visual effects
+- Cross-platform support
+- Online high-score system
 
-Muhammad Husnain Raza
+---
+
+## 👨‍💻 Developer
+
+**Muhammad Husnain Raza**
 
 ADP Computer Science Student
 
-Interests
-🐍 Python
-💻 C++
-📱 Flutter
-🌐 Web Development
-🤖 Artificial Intelligence
-⭐ Support
+### Interests
+
+- 🐍 Python
+- 💻 C++
+- 📱 Flutter
+- 🌐 Web Development
+- 🤖 Artificial Intelligence
+
+---
+
+## ⭐ Support
 
 If you like this project, consider giving the repository a ⭐ on GitHub!
 
 Feedback and suggestions are welcome.
 
-📄 License
+---
+
+## 📄 License
 
 This project is available for educational and personal use.
-
-
-
