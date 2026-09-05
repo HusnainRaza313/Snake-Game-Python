@@ -1,62 +1,66 @@
 # 🐍 Snake Game
 
-A modern and feature-rich Snake Game built with **Python and Tkinter**.
+[![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Tkinter](https://img.shields.io/badge/GUI-Tkinter-informational)](https://docs.python.org/3/library/tkinter.html)
+[![Pillow](https://img.shields.io/badge/Image%20Processing-Pillow-yellow)](https://pypi.org/project/Pillow/)
+[![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey?logo=windows&logoColor=white)](https://www.microsoft.com/windows)
+[![Release](https://img.shields.io/github/v/release/HusnainRaza313/Snake-Game-Python?label=Latest%20Release)](https://github.com/HusnainRaza313/Snake-Game-Python/releases/latest)
 
-This project was developed as a desktop game for Windows, featuring custom graphics, background music, sound effects, high-score tracking, pause/resume functionality, and a Windows installer created using **Inno Setup**.
+A modern and feature-rich **Snake Game** built with **Python and Tkinter**.
 
----
+This desktop game includes custom graphics, background music, sound effects, high-score tracking, pause/resume functionality, persistent settings, and a Windows installer created with **Inno Setup**.
 
-## 🎮 Features
+## 📸 Game Preview
 
-- 🐍 Classic Snake gameplay
-- 🎯 Score system
-- 🏆 High-score system
-- 💾 Persistent high-score saving
-- 🎵 Background music
-- 🔊 Sound effects
-- ⏸️ Pause and resume functionality
-- 🔄 Restart / Play Again functionality
-- 🎨 Custom game graphics and UI
-- 🖼️ Custom buttons and game assets
-- 🚧 Wall collision detection
-- 💀 Game-over system
-- ⚙️ Saved game settings
-- 📦 Windows installer
-- 🪟 Standalone Windows application
-
----
-
-## 📸 Game Screenshot
-
-![Snake Game Screenshot](game_screenshot.png)
-
----
+<p align="center">
+  <img src="game_screenshot.png" alt="Snake Game Screenshot" width="520">
+</p>
 
 ## 📥 Download
 
 ### 🪟 Windows
 
-Download the latest Windows installer from the GitHub Releases page:
+Download the latest Windows installer from **GitHub Releases**:
 
-[![Download Snake Game](https://img.shields.io/badge/Download-Snake%20Game-brightgreen?style=for-the-badge&logo=windows)](https://github.com/HusnainRaza313/Snake-Game-Python/releases/latest)
+<p align="center">
+  <a href="https://github.com/HusnainRaza313/Snake-Game-Python/releases/latest">
+    <img src="https://img.shields.io/badge/⬇️%20Download%20Snake%20Game-brightgreen?style=for-the-badge" alt="Download Snake Game">
+  </a>
+</p>
 
-Download the `.exe` installer, run it, and follow the installation instructions.
+The current release provides the Windows installer **`Snake.Game.Setup.exe`**.
 
-> **Note:** The game is currently packaged for Windows.
+> **Note:** The packaged application is currently available for Windows.
 
----
+## 🎮 Features
 
-## 🛠️ Technologies Used
+- 🐍 Classic Snake gameplay
+- 🎯 Score system
+- 🏆 Persistent high-score system
+- 💾 Local game-data saving
+- 🎵 Background music
+- 🔊 Sound effects
+- ⏸️ Pause and resume
+- 🔄 Restart / Play Again
+- 🎨 Custom graphics and modern UI
+- 🖼️ Custom buttons and game assets
+- 🚧 Wall collision detection
+- 💀 Game-over screen
+- ⚙️ Saved music and sound settings
+- 📦 Windows installer
+- 🪟 Standalone Windows application
 
-- **Python**
-- **Tkinter** – Graphical User Interface
-- **Pillow (PIL)** – Image processing and custom graphics
-- **JSON** – Saving settings and high scores
-- **Winsound** – Windows sound effects
-- **PyInstaller** – Packaging the Python application
-- **Inno Setup** – Creating the Windows installer
+## 🛠️ Technologies
 
----
+| Technology | Purpose |
+|---|---|
+| **Python** | Core programming language |
+| **Tkinter** | Desktop graphical user interface |
+| **Pillow (PIL)** | Image processing and custom graphics |
+| **JSON** | Saving settings and high scores |
+| **Winsound** | Windows sound effects |
+| **PyInstaller** | Packaging the Python application |
+| **Inno Setup** | Creating the Windows installer |
 
 ## 📂 Project Structure
 
@@ -66,12 +70,12 @@ Snake-Game-Python/
 ├── snake_game.py
 ├── snake_game.pyproj
 ├── Snake Game.spec
+├── Snake_game.iss
 ├── requirements.txt
 ├── .gitignore
 │
 ├── background_music.wav
 ├── valid_icon.ico
-│
 ├── game_screenshot.png
 │
 ├── best_badge.png
@@ -95,15 +99,13 @@ Snake-Game-Python/
 └── snake_head.png
 ```
 
----
-
 ## ▶️ Run From Source
 
-If you want to run the game directly from the source code:
+If you want to run the game from source code:
 
 ### 1. Install Python
 
-Make sure Python is installed on your computer.
+Install Python 3.x on your Windows computer.
 
 ### 2. Clone the Repository
 
@@ -129,19 +131,15 @@ pip install -r requirements.txt
 python snake_game.py
 ```
 
----
-
 ## 📦 Build the Application
 
-The project includes the PyInstaller specification file:
+The repository includes a PyInstaller specification file:
 
 ```text
 Snake Game.spec
 ```
 
-This file can be used to build the Windows executable.
-
-### Build Command
+Build the application with:
 
 ```bash
 pyinstaller "Snake Game.spec"
@@ -149,40 +147,31 @@ pyinstaller "Snake Game.spec"
 
 The generated application can then be packaged into a Windows installer using **Inno Setup**.
 
----
-
 ## 💾 Game Data
 
-The game stores certain user data locally, such as:
+The game stores user data locally, including:
 
 - High score
 - Game settings
 - Music preference
 - Sound-effect preference
 
-These settings are saved locally on the user's computer.
+The data is stored in the user's local application-data folder rather than inside the source repository.
 
----
+## 🎯 Project Goals
 
-## 🎯 Purpose of the Project
-
-This project was created to practice and demonstrate skills in:
+This project was created to practice and demonstrate:
 
 - Python programming
 - GUI development
-- Object-oriented/problem-solving concepts
+- Game logic
 - File handling
 - Audio integration
 - Image processing
-- Game logic
 - Application packaging
 - Windows software distribution
 
----
-
 ## 🚀 Future Improvements
-
-Possible future improvements include:
 
 - Multiple difficulty levels
 - Additional game modes
@@ -193,32 +182,28 @@ Possible future improvements include:
 - Cross-platform support
 - Online high-score system
 
----
-
 ## 👨‍💻 Developer
 
 **Muhammad Husnain Raza**
 
 ADP Computer Science Student
 
-### Interests
+**Interests:**
 
-- 🐍 Python
-- 💻 C++
-- 📱 Flutter
-- 🌐 Web Development
-- 🤖 Artificial Intelligence
-
----
+`Python` · `C++` · `Flutter` · `Web Development` · `Artificial Intelligence`
 
 ## ⭐ Support
 
-If you like this project, consider giving the repository a ⭐ on GitHub!
+If you like this project, consider giving the repository a ⭐ on GitHub.
 
 Feedback and suggestions are welcome.
 
----
-
 ## 📄 License
 
-This project is available for educational and personal use.
+This project is shared for **educational and personal use**. No separate open-source license is currently included.
+
+---
+
+<p align="center">
+  Built with 🐍 Python &nbsp;•&nbsp; Developed by <strong>Muhammad Husnain Raza</strong>
+</p>
